@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Court Hearing Dates Project</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to your CSS file. -->
+</head>
+<body>
+    <header>
+        <h1 >Login to Samvidhan </h1>
+    </header>
+       
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+         <main class="login-container">
+            <div class="login-form">
+        <h2 class="fade-in">  Login</h2>
+        <form action="login.php" method="post"> 
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</main>
+    
+
+    <footer>
+        <p>&copy;  Samvidhan , a initiative for law easyness @2023</p>
+    </footer>
+</body>
+<script >
+
+    const elementsToAnimate = document.querySelectorAll('.fade-in');
+
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1,
+    };
+    
+    const elementObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+                elementObserver.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+    
+    elementsToAnimate.forEach((element) => {
+        elementObserver.observe(element);
+    });
+    
+
+</script>
+<!-- src="animation.js" -->
+</html>

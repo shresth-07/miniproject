@@ -1,0 +1,270 @@
+
+body, h1, h2, h3, p, ul, li, form, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #060000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 5px solid #FF6B6B;
+}
+
+nav ul {
+    background-color: #333;
+    list-style: none;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form input[type="submit"] {
+    background-color: #FF6B6B;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* Your existing CSS styles here */
+
+.login-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.login-form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* Your existing CSS styles here */
+
+.login-container {
+    display: flex;
+    justify-content: flex-start;
+    background-image: url('https://via.placeholder.com/400x600'); /* Replace 'your-image.jpg' with the path to your image file. */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background-color: black;
+}
+/* styles.css */
+
+/* Reset some default styles for better consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Contact Information Section */
+#contact-info {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-info h2 {
+    color: #007bff;
+    font-size: 24px;
+}
+
+address {
+    font-size: 18px;
+    color: #333;
+}
+
+address a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form Section */
+#contact-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    color: #007bff;
+    font-size: 24px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    #contact-info, #contact-form {
+        margin: 10px;
+    }
+}
+
+
+/* Add more specific styles and customizations as needed. */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+

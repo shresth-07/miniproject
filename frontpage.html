@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Court Hearing Dates Project</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- You can link to an external CSS file for styling. -->
+</head>
+<body>
+    <header>
+        <h1>Court Hearing Dates </h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="login.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+            <script src="animation.js"></script> 
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Know your next hearing date  </h2>
+        <p>Just enter the case id and you will be abe to know next hearing date of your current case </p>
+
+        
+        <h3>Search for Court Hearing Dates</h3>
+        <form>
+            <label for="court-location">Court Location:</label>
+            <input type="text" id="court-location" name="court-location">
+            
+            <label for="case-number">Case Number:</label>
+            <input type="text" id="case-number" name="case-number">
+            
+            <label for="date-range">Date Range:</label>
+            <input type="date" id="start-date" name="start-date">
+            <span>to</span>
+            <input type="date" id="end-date" name="end-date">
+            
+            <input type="submit" value="Search">
+        </form>
+        
+        <h3>Upcoming Hearings</h3>
+        <ul>
+            <li>
+                <strong>Court Date:</strong> October 31, 2023
+                <br>
+                <strong>Court Location:</strong> Superior Court of Exampleville
+                <br>
+                <strong>Case Number:</strong> 12345-2023
+            </li>
+            <!-- Add more hearing entries as needed -->
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Court Hearing Dates Project</p>
+    </footer>
+</body>
+</html>
